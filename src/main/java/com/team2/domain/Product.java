@@ -53,4 +53,12 @@ public class Product {
     public void setProductDetails(ProductDetails productDetails) {
         this.productDetails = productDetails;
     }
+
+    public String getImageAsBase64() {
+        return imageAsBase64;
+    }
+
+    public void setImageAsBase64(String imageAsBase64) {
+        this.imageAsBase64 = imageAsBase64;
+    }
 }
