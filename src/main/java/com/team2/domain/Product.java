@@ -1,6 +1,5 @@
 package com.team2.domain;
 
-import jdk.jfr.Category;
 
 import javax.persistence.*;
 
@@ -13,9 +12,11 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator")
     private int id;
-    @Column
+    @ManyToOne
+    @JoinColumn(name = "cId")
     private Category category;
-    @Column
+    @OneToOne
+    @JoinColumn(name = "pdId")
     private ProductDetails productDetails;
     @Column
     private String imageAsBase64;
