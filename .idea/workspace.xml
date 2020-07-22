@@ -27,7 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/delegate/LoginDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/delegate/LoginDelegate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
