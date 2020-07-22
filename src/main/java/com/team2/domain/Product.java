@@ -2,13 +2,23 @@ package com.team2.domain;
 
 import jdk.jfr.Category;
 
+import javax.persistence.*;
+
 /**
  * @author ozgeonec
  */
+@Entity
 public class Product {
+    @SequenceGenerator(name = "generator", sequenceName = "SBS_ADRES_ID_SEQ")
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator")
     private int id;
+    @Column
     private Category category;
+    @Column
     private ProductDetails productDetails;
+    @Column
+    private String imageAsBase64;
 
     public Product(Category category, ProductDetails productDetails) {
         this.category = category;
