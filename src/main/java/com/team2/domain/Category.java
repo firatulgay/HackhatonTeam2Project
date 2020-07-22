@@ -4,8 +4,9 @@ import javax.persistence.*;
 
 @Entity
 public class Category {
+    @SequenceGenerator(name = "generator", sequenceName = "SBS_ADRES_ID_SEQ")
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator")
     @Column
     private int id;
 
