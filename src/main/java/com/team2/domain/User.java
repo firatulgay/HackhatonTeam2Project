@@ -18,6 +18,7 @@ public class User {
     private int id;
 
     @Column
+    @Enumerated(EnumType.STRING)
     private EnumUserType enumUserType;
 
     @Column

@@ -20,8 +20,13 @@ public class ProductController {
         return productService.getProducts();
     }
    @GetMapping("/products/{id}")
-   public Product retrieveProduct(int id){
-      return productService.retrieveItem(id);
+   public Product findProductById(int id){
+      return productService.findById(id);
    }
+
+    @GetMapping("/saveProduct")
+    public  void saveProduct(Product product){
+        productService.saveProduct(product);
+    }
 
 }

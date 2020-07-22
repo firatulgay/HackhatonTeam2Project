@@ -5,7 +5,9 @@ import com.team2.domain.User;
 import com.team2.service.ProductService;
 import com.team2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -19,6 +21,12 @@ public class UserController {
     @GetMapping("/users")
     public Iterable<User> getAllUsers(){
         return userService.getUsers();
+    }
+
+    @GetMapping("/userLogin/{name}/{password}")
+    public User getLogin(@PathVariable("name") String name, @PathVariable("password")String password){
+        User user = userService.getLogin(name, password);
+
     }
 
 }
