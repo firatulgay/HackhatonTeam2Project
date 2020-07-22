@@ -1,15 +1,29 @@
 package com.team2.domain;
 
+import javax.persistence.*;
+
 /**
  * User
  *
  * @author Fırat ÜLGAY
  * @since 5.230.0
  */
+@Entity
 public class User {
+
+    @SequenceGenerator(name = "generator", sequenceName = "SBS_ADRES_ID_SEQ")
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator")
+    @Column
     private int id;
+
+    @Column
     private EnumUserType enumUserType;
+
+    @Column
     private String name;
+
+    @Column
     private String password;
 
     public int getId() {
