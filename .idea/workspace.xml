@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="Db Settings for product and product details class">
-      <change beforePath="$PROJECT_DIR$/HackhatonTeam2Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackhatonTeam2Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/domain/Product.java" afterDir="false" />
+    <list default="true" id="85612242-d071-4847-876e-21600aa1228d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +46,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -142,9 +160,6 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3133000" />
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -166,10 +181,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="435" y="250" key="Github.CreatePullRequestDialog/0.0.1366.768@0.0.1366.768" timestamp="1595407100197" />
+    <state x="374" y="67" key="RollbackChangesDialog" timestamp="1595419351566">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="374" y="67" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595419351566" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1595406828765">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595406828765" />
+    <state x="367" y="152" key="git4idea.merge.GitPullDialog" timestamp="1595419329843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="367" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1595419329843" />
   </component>
   <component name="masterDetails">
     <states>
