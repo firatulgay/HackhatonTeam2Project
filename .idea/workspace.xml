@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="spring application annotation added">
+    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="application properties settings">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/team2/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/team2/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/team2/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +52,9 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.team2" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.team2.domain" />
     </key>
@@ -179,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595418084348</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="application properties settings">
+      <created>1595418986491</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595418986491</updated>
+    </task>
+    <task id="LOCAL-00010" summary="application properties settings">
+      <created>1595419071040</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595419071040</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -198,33 +219,38 @@
     <MESSAGE value="entity settings" />
     <MESSAGE value="Product service&amp;controller classes basic methods" />
     <MESSAGE value="spring application annotation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring application annotation added" />
+    <MESSAGE value="application properties settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="application properties settings" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-296" y="9" width="799" height="679" key="CommitChangelistDialog2" timestamp="1595418082285">
+    <state x="479" y="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1595419051945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="-296" y="9" width="799" height="679" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595418082285" />
+    <state x="479" y="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.768@0.0.1366.768" timestamp="1595419051945" />
+    <state x="123" y="0" width="799" height="679" key="CommitChangelistDialog2" timestamp="1595419069200">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="123" y="0" width="799" height="679" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595419069200" />
     <state x="435" y="250" key="Github.CreatePullRequestDialog" timestamp="1595407100197">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="435" y="250" key="Github.CreatePullRequestDialog/0.0.1366.768@0.0.1366.768" timestamp="1595407100197" />
-    <state width="1321" height="121" key="GridCell.Tab.0.bottom" timestamp="1595418296361">
+    <state width="1321" height="580" key="GridCell.Tab.0.bottom" timestamp="1595419942448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="121" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595418296361" />
-    <state width="1321" height="121" key="GridCell.Tab.0.center" timestamp="1595418296361">
+    <state width="1321" height="580" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595419942448" />
+    <state width="1321" height="580" key="GridCell.Tab.0.center" timestamp="1595419942448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="121" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595418296361" />
-    <state width="1321" height="121" key="GridCell.Tab.0.left" timestamp="1595418296361">
+    <state width="1321" height="580" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595419942448" />
+    <state width="1321" height="580" key="GridCell.Tab.0.left" timestamp="1595419942448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="121" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595418296361" />
-    <state width="1321" height="121" key="GridCell.Tab.0.right" timestamp="1595418296361">
+    <state width="1321" height="580" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595419942448" />
+    <state width="1321" height="580" key="GridCell.Tab.0.right" timestamp="1595419942448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="121" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595418296361" />
+    <state width="1321" height="580" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595419942448" />
     <state width="1321" height="230" key="GridCell.Tab.1.bottom" timestamp="1595417320421">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -241,10 +267,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1321" height="230" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1595417320421" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1595418089526">
+    <state x="321" y="145" key="MultipleFileMergeDialog" timestamp="1595419014681">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595418089526" />
+    <state x="321" y="145" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1595419014681" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1595419087078">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595419087078" />
   </component>
   <component name="masterDetails">
     <states>
