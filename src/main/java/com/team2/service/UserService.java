@@ -18,12 +18,17 @@ public class UserService {
     public Iterable<User> getUsers(){
         return userRepository.findAll();
     }
+
     public User getUser(int id){
         return userRepository.findOne(id);
     }
+
     public User saveProduct(User user){
         return userRepository.save(user);
     }
 
-
+    public User getLogin(String name, String password) {
+        User user = userRepository.findByNameAndPassword(name, password);
+        return user;
+    }
 }

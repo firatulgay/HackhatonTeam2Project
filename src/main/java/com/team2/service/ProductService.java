@@ -24,7 +24,7 @@ public class ProductService {
     public Product saveProduct(Product product){
         return productRepository.save(product);
     }
-    public Product retrieveItem(int id){
+    public Product findById(int id){
         Product productItem = productRepository.findOne(id);
         return productItem;
     }
