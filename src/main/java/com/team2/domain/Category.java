@@ -10,7 +10,6 @@ public class Category {
 
     private String categoryName;
 
-
     public int getId() {
         return id;
     }

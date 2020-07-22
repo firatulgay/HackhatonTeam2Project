@@ -1,6 +1,5 @@
 package com.team2.domain;
 
-import jdk.jfr.Category;
 
 /**
  * @author ozgeonec
