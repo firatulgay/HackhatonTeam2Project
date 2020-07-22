@@ -17,7 +17,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/users")
-    public Iterable<User> getAllProducts(){
+    public Iterable<User> getAllUsers(){
         return userService.getUsers();
     }
 
