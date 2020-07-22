@@ -18,6 +18,10 @@ public class ProductDetails {
     @Column
     private double price;
 
+    @OneToOne
+    @JoinColumn(name = "pId")
+    private Product product;
+
     public ProductDetails(String brand, String description, double price) {
         this.brand = brand;
         this.description = description;
@@ -55,5 +59,13 @@ public class ProductDetails {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
     }
 }

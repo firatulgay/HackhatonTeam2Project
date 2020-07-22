@@ -21,7 +21,7 @@ public class ProductDetailsService {
     }
 
     //Get product details from productid
-    public ProductDetails findByProduct(int id){
+    public ProductDetails findByProductId(int id){
         return productDetailsRepository.findByProductId(id);
     }
 }

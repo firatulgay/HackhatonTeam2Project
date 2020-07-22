@@ -5,6 +5,7 @@ import com.team2.domain.Product;
 import com.team2.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -26,7 +27,7 @@ public class CategoryController {
     }
 
     @GetMapping("/findCategoryById/{id}")
-    public Category findCategoryById(int id) {
+    public Category findCategoryById(@PathVariable("id") int id) {
         return categoryService.getCategoryById(id);
     }
 }

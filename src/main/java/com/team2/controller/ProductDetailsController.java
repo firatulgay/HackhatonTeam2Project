@@ -15,12 +15,13 @@ public class ProductDetailsController {
     @Autowired
     ProductDetailsService productDetailsService;
 
-    @GetMapping("/productdetails/{id}")
+    @GetMapping("/productDetails/{id}")
     public ProductDetails getProductDetailsById(int id){
         return productDetailsService.findById(id);
     }
+
     @GetMapping("/productId/details")
     public ProductDetails getProductDetailsByProductId(int id){
-        return productDetailsService.findByProduct(id);
+        return productDetailsService.findByProductId(id);
     }
 }
