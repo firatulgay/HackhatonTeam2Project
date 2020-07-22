@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="Db Settings for product and product details class">
-      <change beforePath="$PROJECT_DIR$/HackhatonTeam2Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackhatonTeam2Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/domain/Product.java" afterDir="false" />
+    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="Product service&amp;controller classes basic methods">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +30,6 @@
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1f2C7yR7PjA25MJK9JYPnbsEulj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,6 +59,20 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.team2.App" />
+      <module name="HackhatonTeam2Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.team2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -98,6 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -139,7 +151,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595415995423</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Db Settings for product and product details class">
+      <created>1595416207945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595416207945</updated>
+    </task>
+    <task id="LOCAL-00006" summary="entity settings">
+      <created>1595416461798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595416461798</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Product service&amp;controller classes basic methods">
+      <created>1595417610257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595417610257</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -155,21 +188,55 @@
     <MESSAGE value="test" />
     <MESSAGE value="Product and Product Details Classes" />
     <MESSAGE value="Db Settings for product and product details class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Db Settings for product and product details class" />
+    <MESSAGE value="entity settings" />
+    <MESSAGE value="Product service&amp;controller classes basic methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product service&amp;controller classes basic methods" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1595406736426">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1595417607222">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595406736426" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595417607222" />
     <state x="435" y="250" key="Github.CreatePullRequestDialog" timestamp="1595407100197">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="435" y="250" key="Github.CreatePullRequestDialog/0.0.1366.768@0.0.1366.768" timestamp="1595407100197" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1595406828765">
+    <state width="1321" height="230" key="GridCell.Tab.0.bottom" timestamp="1595417320420">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595406828765" />
+    <state width="1321" height="230" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595417320420" />
+    <state width="1321" height="230" key="GridCell.Tab.0.center" timestamp="1595417320420">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="230" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595417320420" />
+    <state width="1321" height="230" key="GridCell.Tab.0.left" timestamp="1595417320420">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="230" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595417320420" />
+    <state width="1321" height="230" key="GridCell.Tab.0.right" timestamp="1595417320420">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="230" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595417320420" />
+    <state width="1321" height="230" key="GridCell.Tab.1.bottom" timestamp="1595417320421">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="230" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595417320421" />
+    <state width="1321" height="230" key="GridCell.Tab.1.center" timestamp="1595417320421">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="230" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1595417320421" />
+    <state width="1321" height="230" key="GridCell.Tab.1.left" timestamp="1595417320421">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="230" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1595417320421" />
+    <state width="1321" height="230" key="GridCell.Tab.1.right" timestamp="1595417320421">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="230" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1595417320421" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1595416477404">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595416477404" />
   </component>
   <component name="masterDetails">
     <states>
