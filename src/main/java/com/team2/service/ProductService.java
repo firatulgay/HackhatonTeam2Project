@@ -5,6 +5,8 @@ import com.team2.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 
 /**
  * @author ozgeonec
@@ -21,12 +23,17 @@ public class ProductService {
     public Product getProduct(int id){
         return productRepository.findOne(id);
     }
+
     public Product saveProduct(Product product){
         return productRepository.save(product);
     }
+
     public Product findById(int id){
         Product productItem = productRepository.findOne(id);
         return productItem;
     }
 
+    public List<Product> findProductByCategoryId(int id) {
+        return productRepository.findByCategoryId(id);
+    }
 }
