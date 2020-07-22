@@ -1,15 +1,17 @@
 package com.team2.domain;
 
+import javax.persistence.*;
+
+@Entity
 public class Category {
+    @SequenceGenerator(name = "generator", sequenceName = "SBS_ADRES_ID_SEQ")
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator")
+    @Column
     private int id;
 
-    public Category(int id, String categoryName) {
-        this.id = id;
-        this.categoryName = categoryName;
-    }
-
+    @Column
     private String categoryName;
-
 
     public int getId() {
         return id;
