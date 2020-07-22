@@ -18,7 +18,7 @@ public class CategoryService {
     public Iterable<Category> getCategories(){
         return categoryRepository.findAll();
     }
-    public Category getCategory(int id){
+    public Category getCategoryById(int id){
         return categoryRepository.findOne(id);
     }
     public Category saveCategory(Category category){

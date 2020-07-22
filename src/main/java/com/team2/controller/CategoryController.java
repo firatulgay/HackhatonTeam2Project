@@ -16,7 +16,17 @@ public class CategoryController {
     public CategoryService categoryService;
 
     @GetMapping("/categories")
-    public Iterable<Category> getAllProducts(){
+    public Iterable<Category> getAllProducts() {
         return categoryService.getCategories();
+    }
+
+    @GetMapping("/saveCategory")
+    public Category saveCategory(Category category) {
+        return categoryService.saveCategory(category);
+    }
+
+    @GetMapping("/findCategoryById/{id}")
+    public Category findCategoryById(int id) {
+        return categoryService.getCategoryById(id);
     }
 }
