@@ -1,15 +1,16 @@
 package com.team2.domain;
 
+import javax.persistence.*;
+
+@Entity
 public class Category {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column
     private int id;
 
-    public Category(int id, String categoryName) {
-        this.id = id;
-        this.categoryName = categoryName;
-    }
-
+    @Column
     private String categoryName;
-
 
     public int getId() {
         return id;
