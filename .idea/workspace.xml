@@ -27,8 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/domain/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,6 +50,12 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
   <component name="ProjectId" id="1f2C7yR7PjA25MJK9JYPnbsEulj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,7 +63,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -70,9 +73,6 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="com.team2.service" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.team2.domain" />
     </key>
@@ -143,14 +143,7 @@
       <option name="project" value="LOCAL" />
       <updated>1595406740701</updated>
     </task>
-    <task id="LOCAL-00003" summary="test">
-      <created>1595412005229</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1595412005229</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,19 +153,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Product and Product Details Classes" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Product and Product Details Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product and Product Details Classes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2131" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1595417996010">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2131" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1595417996010" />
-    <state x="2056" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595417302560">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2056" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1595417302560" />
     <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1595406736426">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -181,14 +166,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="435" y="250" key="Github.CreatePullRequestDialog/0.0.1366.768@0.0.1366.768" timestamp="1595407100197" />
-    <state x="1856" y="175" key="Maven.ArtifactSearchDialog" timestamp="1595414914273">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1595406828765">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="1856" y="175" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1595414914273" />
-    <state x="1753" y="157" key="Vcs.Push.Dialog.v2" timestamp="1595412022574">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1753" y="157" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1595412022574" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595406828765" />
     <state x="2010" y="308" key="git4idea.merge.GitPullDialog" timestamp="1595411701961">
       <screen x="1366" y="0" width="1920" height="1040" />
