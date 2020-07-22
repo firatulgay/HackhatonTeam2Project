@@ -15,7 +15,14 @@ public class ProductService {
     @Autowired
     ProductRepository productRepository;
 
-   /* public List<Product> getProducts(){
-        //return productRepository.findAll();
-    }*/
+    public Iterable<Product> getProducts(){
+        return productRepository.findAll();
+    }
+
+    public Product getProduct(int id){
+        return productRepository.findOne(id);
+    }
+    public Product saveProduct(Product product){
+        return productRepository.save(product);
+    }
 }
