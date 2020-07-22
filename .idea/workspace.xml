@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="Product and Product Details Classes">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="Db Settings for product and product details class">
       <change beforePath="$PROJECT_DIR$/HackhatonTeam2Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackhatonTeam2Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/domain/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595406740701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Db Settings for product and product details class">
+      <created>1595415918906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595415918906</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Db Settings for product and product details class">
+      <created>1595415995423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595415995423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -134,10 +148,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Product and Product Details Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product and Product Details Classes" />
+    <MESSAGE value="Db Settings for product and product details class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Db Settings for product and product details class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1595406736426">
