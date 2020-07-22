@@ -1,12 +1,21 @@
 package com.team2.domain;
 
+import javax.persistence.*;
+
 /**
  * @author ozgeonec
  */
+@Entity
 public class ProductDetails {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator")
     private int id;
+    @Column
     private String brand;
+    @Column
     private String description;
+    @Column
     private double price;
 
     public ProductDetails(String brand, String description, double price) {

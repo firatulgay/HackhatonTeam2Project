@@ -1,14 +1,28 @@
 package com.team2.domain;
 
 
+import javax.persistence.*;
 
 /**
  * @author ozgeonec
  */
+@Entity
 public class Product {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator")
     private int id;
+
+    @ManyToOne
+    @JoinColumn(name = "cId")
     private Category category;
+
+    @OneToOne
+    @JoinColumn(name = "pdId")
     private ProductDetails productDetails;
+
+    @Column
+    private String imageAsBase64;
 
     public Product(Category category, ProductDetails productDetails) {
         this.category = category;
