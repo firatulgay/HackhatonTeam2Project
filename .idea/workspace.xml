@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="entity settings">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/team2/domain/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/team2/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/team2/service/ProductService.java" afterDir="false" />
+    <list default="true" id="a330b9fc-7ece-4567-b333-0dc878930e27" name="Default" comment="Product service&amp;controller classes basic methods">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595416461798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Product service&amp;controller classes basic methods">
+      <created>1595417610257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595417610257</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -186,13 +189,14 @@
     <MESSAGE value="Product and Product Details Classes" />
     <MESSAGE value="Db Settings for product and product details class" />
     <MESSAGE value="entity settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="entity settings" />
+    <MESSAGE value="Product service&amp;controller classes basic methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product service&amp;controller classes basic methods" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1595416459985">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1595417607222">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595416459985" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595417607222" />
     <state x="435" y="250" key="Github.CreatePullRequestDialog" timestamp="1595407100197">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
